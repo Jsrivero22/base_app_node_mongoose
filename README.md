@@ -2,6 +2,23 @@
 
 Este repositorio contiene una plantilla base para proyectos en Node.js utilizando JavaScript. Está diseñado para ofrecer una estructura inicial organizada y funcionalidades básicas que facilitan el desarrollo y la expansión de proyectos personalizados.
 
+Este proyecto incluye MongoDB como base de datos y Mongoose como biblioteca de modelado de objetos. Sin embargo, puedes cambiar la base de datos a PostgreSQL o cualquier otro sistema de gestión de base de datos relacional según tus necesidades.
+
+## Tecnologías
+
+- **Node.js:** Entorno de ejecución de JavaScript.
+- **Express:** Framework de Node.js para construir aplicaciones web.
+- **Mongoose:** Biblioteca de modelado de objetos MongoDB para Node.js.
+- **PostgreSQL:** Sistema de gestión de base de datos relacional.
+- **Dotenv:** Módulo para cargar variables de entorno desde un archivo `.env`.
+- **Nodemon:** Herramienta que reinicia automáticamente la aplicación al detectar cambios en el código.
+- **ESLint:** Herramienta de análisis de código estático para identificar y corregir problemas en el código JavaScript.
+- **Prettier:** Herramienta para formatear el código según reglas predefinidas.
+- **Env-var:** Módulo para validar y gestionar las variables de entorno de manera segura.
+- **Cors:** Middleware para habilitar CORS en la aplicación Express.
+- **Body-parser:** Middleware para analizar los cuerpos de las solicitudes HTTP.
+
+
 ## Características
 
 - **Estructura Modular:** Organización clara y coherente de carpetas para un código más mantenible y escalable.
