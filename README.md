@@ -9,7 +9,7 @@ Este proyecto incluye MongoDB como base de datos y Mongoose como biblioteca de m
 - **Node.js:** Entorno de ejecución de JavaScript.
 - **Express:** Framework de Node.js para construir aplicaciones web.
 - **Mongoose:** Biblioteca de modelado de objetos MongoDB para Node.js.
-- **PostgreSQL:** Sistema de gestión de base de datos relacional.
+- **MongoDB:** Base de datos NoSQL orientada a documentos.
 - **Dotenv:** Módulo para cargar variables de entorno desde un archivo `.env`.
 - **Nodemon:** Herramienta que reinicia automáticamente la aplicación al detectar cambios en el código.
 - **ESLint:** Herramienta de análisis de código estático para identificar y corregir problemas en el código JavaScript.
