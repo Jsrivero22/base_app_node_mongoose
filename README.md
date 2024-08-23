@@ -15,4 +15,4 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/Jsrivero22/proyect_init_node_js.git
