@@ -16,3 +16,43 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 
    ```bash
    git clone https://github.com/Jsrivero22/proyect_init_node_js.git
+
+
+2. **Instala las dependencias:**
+
+   ```bash
+   npm install
+
+3. **Configura las variables de entorno:**
+
+   Crea un archivo `.env` en la raíz del proyecto y define las variables de entorno necesarias. Puedes encontrar un ejemplo en el archivo `.env.example`.
+
+4. **Inicia el servidor:**
+
+   ```bash
+   npm run dev
+
+## Estructura de Carpetas
+
+La estructura de carpetas sigue una organización modular que separa las responsabilidades y facilita la escalabilidad del proyecto. A continuación, se describen las carpetas principales y su propósito:
+
+- **`config/`**: Contiene la configuración de la aplicación, como la validación de variables de entorno.
+- **`controllers/`**: Define la lógica de controladores para manejar las solicitudes HTTP.
+- **`database/`**: Contiene la configuración de la base de datos.
+- **`errors/`**: Define clases de errores personalizadas para manejar excepciones.
+- **`helpers/`**: Contiene funciones de ayuda y utilidades reutilizables en toda la aplicación.
+- **`middlewares/`**: Contiene funciones de middleware para manejar solicitudes HTTP antes de llegar a las rutas.
+- **`models/`**: Define los modelos de datos de la aplicación.
+- **`routes/`**: Define las rutas de la aplicación y conecta las solicitudes HTTP con los controladores.
+- **`public/`**: Contiene archivos estáticos, como imágenes o hojas de estilo.
+- **`services/`**: Define la lógica de servicios para interactuar con los modelos de datos.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/feature-name`).
+3. Realiza los cambios necesarios y confirma los cambios (`git commit -am 'Add new feature'`).
+4. Sube los cambios a la rama (`git push origin feature/feature-name`).
+5. Crea un nuevo Pull Request.
