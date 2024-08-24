@@ -1,23 +1,29 @@
 import { Router } from "express";
 
-const authRouter = Router();
+export class AuthRoutes {
 
-authRouter.post('/login', ( req, res ) => {
-    res.json({
-        message: "Login route",
-    });
-});
+    static get routes() {
 
-authRouter.post('register', ( req, res ) => {
-    res.json({
-        message: "Register route",
-    });
-});
+        const routes = Router();
 
-authRouter.get('/validate-email', ( req, res ) => {
-    res.json({
-        message: "Validate email route",
-    });
-});
+        routes.post('/login', ( req, res ) => {
+            res.json({
+                message: "Login route",
+            });
+        });
 
-export default authRouter;
+        routes.post('register', ( req, res ) => {
+            res.json({
+                message: "Register route",
+            });
+        });
+
+        routes.get('/validate-email', ( req, res ) => {
+            res.json({
+                message: "Validate email route",
+            });
+        });
+
+        return routes;
+    }
+}

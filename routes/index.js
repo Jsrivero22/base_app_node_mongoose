@@ -1,21 +1,23 @@
 import { Router } from "express";
 
-
 // Import the subroutes
-import authRoutes from "./auth.js";
+import { AuthRoutes } from "./auth.js";
 
-const routes = Router();
+export class AppRoutes {
 
-// Define the subroutes
-routes.use('/auth', authRoutes);
+    static get routes() {
 
-routes.get('/test', (req, res) => {
-    res.json({
-        message: "Hello World",
-    });
-});
+        const routes = Router();
 
+        // Define the subroutes
+        routes.use( '/auth', AuthRoutes.routes );
 
+        routes.get( '/test', (req, res) => {
+            res.json({
+                message: "Hello World",
+            });
+        });
 
-
-export default routes;
+        return routes;
+    }
+}
